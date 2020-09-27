@@ -31,6 +31,21 @@ public class c1_1 {
 		}
 		return result;
 	}
+	
+	// 네 값의 최소값 구하기
+	public static int q3(int a, int b, int c, int d){
+		int result = a;
+		if(result>b){
+			result = b;
+		}
+		if(result>c){
+			result = c;
+		}
+		if(result>d){
+			result = d;
+		}
+		return result;
+	}
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -40,8 +55,12 @@ public class c1_1 {
 		System.out.println("최댓값 = "+ q1(sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt()));
 		
 		//q2
-		System.out.println("세 값의 최소값을 구하기 위해 세개의 정수를 입력해주세요.");
+		System.out.println("세 값의 최솟값을 구하기 위해 세개의 정수를 입력해주세요.");
 		System.out.println("최솟값 = " + q2(sc.nextInt(),sc.nextInt(),sc.nextInt()));
+		
+		//q3
+		System.out.println("네 값의 최솟값을 구하기 위해 네개의 정수를 입력해주세요.");
+		System.out.println("최솟값 = "+ q3(sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt()));
 		
 		sc.close();
 	}
