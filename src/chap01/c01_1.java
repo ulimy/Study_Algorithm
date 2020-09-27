@@ -2,7 +2,7 @@ package chap01;
 
 import java.util.Scanner;
 
-public class c1_1 {
+public class c01_1 {
 	
 	//Q1 네 값의 최댓값 구하기
 	public static int q1(int a,int b,int c,int d){
