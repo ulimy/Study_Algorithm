@@ -4,5 +4,5 @@
 
 1. 기본 알고리즘
   1. [알고리즘이란?](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap01/c01_1.java)
-  1. [반복](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap01/c01_2.java)
+  2. [반복](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap01/c01_2.java)
 2. 기본 자료구조
