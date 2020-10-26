@@ -19,6 +19,8 @@ public class c01_2 {
 		System.out.println("1부터 "+n+"까지의 합은 "+sum+"입니다.");
 		System.out.println("i의 값은 "+i+"입니다.");
 		
+		return;
+		
 	}
 	
 	//for 반복문 이용하기
@@ -36,12 +38,15 @@ public class c01_2 {
 		
 		System.out.print(" = "+sum);
 		
+		return;
+		
 	}
 	
 	//가우스의 덧셈
 	public static void q8(int n){
 		int sum = (1+n)*(n/2)+(n%2==0?0:n/2+1);
 		System.out.println("1부터 "+n+"까지의 합은 "+sum+"입니다.");
+		return;
 	}
 	
 	//a와 b사이의 모든 정수의 합
