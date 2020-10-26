@@ -44,6 +44,24 @@ public class c01_2 {
 		System.out.println("1부터 "+n+"까지의 합은 "+sum+"입니다.");
 	}
 	
+	//a와 b사이의 모든 정수의 합
+	public static void q9(int a,int b){
+		int sum=0;
+		
+		if (a>b){
+			System.out.println("a가 b보다 작아 합을 구할 수 없습니다.");
+			return;
+		}
+		else{
+			for (int i=a;i<=b;i++)
+				sum+=i;
+		}
+		System.out.println(a+"부터 "+b+"까지의 합은 "+sum+"입니다.");
+		
+		return;
+			
+	}
+	
 	public static void main(String args[]){
 		
 		Scanner sc = new Scanner(System.in);
@@ -62,7 +80,14 @@ public class c01_2 {
 		System.out.println("1부터 n까지의 합을 구합니다.");
 		System.out.println("n의 값: ");
 		q8(sc.nextInt());
-				
+		
+		//q9
+		System.out.println("a와 b를 포함하여 a부터 b까지의 합을 구합니다.");
+		System.out.print("a의 값: ");
+		int a = sc.nextInt();
+		System.out.print("b의 값: ");
+		int b = sc.nextInt();
+		q9(a,b);
 		
 		sc.close();
 		
