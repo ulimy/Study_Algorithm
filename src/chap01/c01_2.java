@@ -21,7 +21,22 @@ public class c01_2 {
 		
 	}
 	
-	
+	//for 반복문 이용하기
+	public static void q7(int n){
+		
+		int sum=0;
+		
+		for(int i=1;i<=n;i++){
+			if (i<n)
+				System.out.print(i+" + ");
+			else
+				System.out.print(i);			
+			sum+=i;
+		}
+		
+		System.out.print(" = "+sum);
+		
+	}
 	
 	public static void main(String args[]){
 		
@@ -32,6 +47,10 @@ public class c01_2 {
 		System.out.println("n의 값: ");
 		q6(sc.nextInt());
 		
+		//q7
+		System.out.println("1부터 n까지의 합을 구합니다.");
+		System.out.println("n의 값: ");
+		q7(sc.nextInt());
 		sc.close();
 		
 	}
