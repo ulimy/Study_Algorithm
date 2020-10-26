@@ -38,6 +38,12 @@ public class c01_2 {
 		
 	}
 	
+	//가우스의 덧셈
+	public static void q8(int n){
+		int sum = (1+n)*(n/2)+(n%2==0?0:n/2+1);
+		System.out.println("1부터 "+n+"까지의 합은 "+sum+"입니다.");
+	}
+	
 	public static void main(String args[]){
 		
 		Scanner sc = new Scanner(System.in);
@@ -51,6 +57,13 @@ public class c01_2 {
 		System.out.println("1부터 n까지의 합을 구합니다.");
 		System.out.println("n의 값: ");
 		q7(sc.nextInt());
+		
+		//q8
+		System.out.println("1부터 n까지의 합을 구합니다.");
+		System.out.println("n의 값: ");
+		q8(sc.nextInt());
+				
+		
 		sc.close();
 		
 	}
