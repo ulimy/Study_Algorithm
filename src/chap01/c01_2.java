@@ -79,6 +79,26 @@ public class c01_2 {
 		return;
 	}
 	
+	//입력된 양의 정수의 자릿수 구하기
+	public static void q11(int num){
+		
+		int sum=0;
+		
+		if(num<=0){
+			System.out.println("양의 정수를 입력하세요!");
+			return;
+		}else{
+			
+			while(num>0){
+				sum++;
+				num/=10;
+			}
+			System.out.println("그 수는 "+sum+"자리입니다.");
+			return;
+		}
+		
+	}
+	
 	public static void main(String args[]){
 		
 		Scanner sc = new Scanner(System.in);
@@ -112,6 +132,11 @@ public class c01_2 {
 		System.out.print("b의 값: ");
 		int d = sc.nextInt();
 		q10(c,d);
+		
+		//q11
+		System.out.print("양의 정수: ");
+		int num = sc.nextInt();
+		q11(num);
 		
 		sc.close();
 		
