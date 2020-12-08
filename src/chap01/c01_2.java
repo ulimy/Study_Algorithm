@@ -150,6 +150,57 @@ public class c01_2 {
 		return;
 	}
 	
+	//직각 이등변 삼각형 출력하기
+	public static void q15(int num){
+		
+		int i,j=0;
+		
+		//왼쪽 아래가 직각
+		System.out.println("\n왼쪽 아래가 직각인 직각 이등변 삼각형");
+		for (i=0;i<num;i++){
+			for (j=0;j<=i;j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		//왼쪽 위가 직각
+		System.out.println("\n왼쪽 위가 직각인 직각 이등변 삼각형");
+		for (i=0;i<num;i++){
+			for(j=num;j>i;j--){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		//오른쪽 아래가 직각
+		System.out.println("\n오른쪽 아래가 직각인 직각 이등변 삼각형");
+		for (i=0;i<num;i++){
+			for(j=num;j>i+1;j--){
+				System.out.print(" ");
+			}
+			for(j=0;j<i+1;j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		//오른쪽 위가 직각
+		System.out.println("\n오른쪽 위가 직각인 직각 이등변 삼각형");
+		for (i=0;i<num;i++){
+			for(j=0;j<i;j++){
+				System.out.print(" ");
+			}
+			for(j=0;j<num-i;j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		return;
+		
+	}
+	
 	public static void main(String args[]){
 		
 		Scanner sc = new Scanner(System.in);
@@ -199,6 +250,11 @@ public class c01_2 {
 		System.out.print("정수: ");
 		int num2 = sc.nextInt();
 		q14(num2);
+		
+		//q15
+		System.out.print("정수: ");
+		int num3 = sc.nextInt();
+		q15(num3);
 		
 		sc.close();
 		
