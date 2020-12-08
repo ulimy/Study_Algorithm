@@ -67,6 +67,18 @@ public class c01_2 {
 			
 	}
 	
+	//b가 a보다 크다면 b-a구하기
+	public static void q10(int a,int b){
+		
+		if(b<a){
+			System.out.println("a보다 큰 값을 입력하세요!");
+		}else{
+			System.out.println("b-a는 "+(b-a)+"입니다.");
+		}
+		
+		return;
+	}
+	
 	public static void main(String args[]){
 		
 		Scanner sc = new Scanner(System.in);
@@ -93,6 +105,13 @@ public class c01_2 {
 		System.out.print("b의 값: ");
 		int b = sc.nextInt();
 		q9(a,b);
+		
+		//q10
+		System.out.print("a의 값: ");
+		int c = sc.nextInt();
+		System.out.print("b의 값: ");
+		int d = sc.nextInt();
+		q10(c,d);
 		
 		sc.close();
 		
