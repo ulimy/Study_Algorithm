@@ -218,6 +218,26 @@ public class c01_2 {
 			}
 			System.out.println();
 		}
+		
+		return;
+	}
+	
+	//숫자 피라미드 출력하기
+	public static void q17(int num){
+		int i,j = 0;
+		
+		System.out.println();
+		for (i=1;i<=num;i++){
+			for (j=0;j<num-i;j++){
+				System.out.print(" ");
+			}
+			for (j=0;j<i*2-1;j++){
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+		
+		return;
 	}
 	
 	public static void main(String args[]){
@@ -279,6 +299,11 @@ public class c01_2 {
 		System.out.print("양의 정수: ");
 		int num4 = sc.nextInt();
 		q16(num4);
+		
+		//q17
+		System.out.print("양의 정수: ");
+		int num5 = sc.nextInt();
+		q17(num5);
 		
 		sc.close();
 		
