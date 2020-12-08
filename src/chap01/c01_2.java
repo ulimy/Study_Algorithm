@@ -115,7 +115,7 @@ public class c01_2 {
 			}
 			System.out.println();
 		}
-		
+		return;
 	}
 	
 	//덧셈 표 출력하기
@@ -134,6 +134,20 @@ public class c01_2 {
 			}
 			System.out.println();
 		}
+		return;
+	}
+	
+	//정사각형 출력하기
+	public static void q14(int num){
+		
+		for (int i=0;i<num;i++){
+			for (int j=0;j<num;j++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		return;
 	}
 	
 	public static void main(String args[]){
@@ -180,6 +194,11 @@ public class c01_2 {
 		
 		//q13
 		q13();
+		
+		//q14
+		System.out.print("정수: ");
+		int num2 = sc.nextInt();
+		q14(num2);
 		
 		sc.close();
 		
