@@ -201,6 +201,25 @@ public class c01_2 {
 		
 	}
 	
+	//피라미드 출력하기
+	public static void q16(int num){
+		int i,j=0;
+		
+		System.out.println();
+		for(i=0;i<num;i++){
+			for (j=0;j<num-i;j++){
+				System.out.print(" ");
+			}
+			for (j=0;j<i*2+1;j++){
+				System.out.print("*");
+			}
+			for (j=0;j<num-i;j++){
+				System.out.print(" ");
+			}
+			System.out.println();
+		}
+	}
+	
 	public static void main(String args[]){
 		
 		Scanner sc = new Scanner(System.in);
@@ -255,6 +274,11 @@ public class c01_2 {
 		System.out.print("정수: ");
 		int num3 = sc.nextInt();
 		q15(num3);
+		
+		//q16
+		System.out.print("양의 정수: ");
+		int num4 = sc.nextInt();
+		q16(num4);
 		
 		sc.close();
 		
