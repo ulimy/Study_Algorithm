@@ -9,3 +9,4 @@
   - [반복](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap01/c01_2.java)
  
 2. 기본 자료구조
+  - [배열](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap02/c02_1.java)
