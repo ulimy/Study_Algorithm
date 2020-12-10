@@ -48,11 +48,31 @@ public class c02_1 {
 		return;
 	}
 	
+	// 난수를 사용해 배열의 요소 값 결정하여 모든 요소의 합계 구하기
+	public static void q3(){
+		
+		int[] arr = new int[5];
+		int sum=0,num=0;
+		
+		for(int i=0;i<5;i++){
+			num = rand.nextInt(100);
+			arr[i] = num;
+			sum+=num;
+		}
+		
+		System.out.println("배열 : "+Arrays.toString(arr));
+		System.out.println("합계 : "+sum);
+		
+		return;
+	}
+	
 	public static void main(String args[]){
 		
 		q1();
 		
 		q2();
+		
+		q3();
 		
 		return; 
 	}
