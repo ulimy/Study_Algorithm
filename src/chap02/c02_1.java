@@ -66,6 +66,22 @@ public class c02_1 {
 		return;
 	}
 	
+	//배열 a의 모든 요소를 배열 b에 복사하기
+	public static void q4(){
+		int[] a= {1,2,3,4,5};
+		int[] b = new int[5];
+		
+		for (int i=0;i<a.length;i++){
+			b[i] = a[i];
+		}
+		
+		System.out.println("배열 b : "+Arrays.toString(b));
+		
+		return;
+	}
+	
+
+	
 	public static void main(String args[]){
 		
 		q1();
@@ -73,6 +89,8 @@ public class c02_1 {
 		q2();
 		
 		q3();
+		
+		q4();
 		
 		return; 
 	}
