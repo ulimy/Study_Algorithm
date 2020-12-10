@@ -80,7 +80,23 @@ public class c02_1 {
 		return;
 	}
 	
-
+	//배열반복문을 이용하여 배열 a의 모든 요소를 역순으로 배열 b에 복사하기
+	public static void q5(){
+		
+		int[] a= {1,2,3,4,5};
+		int[] b = new int[5];
+		int i=a.length-1;
+		
+		for(int num:a){
+			b[i]=num;
+			i--;
+		}
+		
+		System.out.println("배열 b : "+Arrays.toString(b));
+		
+		return;
+		
+	}
 	
 	public static void main(String args[]){
 		
@@ -91,6 +107,8 @@ public class c02_1 {
 		q3();
 		
 		q4();
+		
+		q5();
 		
 		return; 
 	}
