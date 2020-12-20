@@ -1,5 +1,7 @@
 package chap03;
 
+import java.util.Arrays;
+
 public class c03_3 {
 	/*
 	 이진검색(BinarySearch)
@@ -40,8 +42,34 @@ public class c03_3 {
 		
 	}
 	
+	
+	/*
+	 Arrays.binarySearch 
+	  : 자바에서 이진검색을 표준 라이브러리로 제공
+	  
+	  검색성공 : 인덱스 반환 ( 여러개라면? 그 중 무작위로 반환 )
+	  검색실패 : -삽입포인트-1 반환
+	  
+	  Arrays.binarySearch(배열이름, 키값);
+	  
+	 */
+	
+	public static void BinarySearch_API(){
+		
+		int[] arr = {1,2,3,4,6,7,8,9,10};
+		
+		// 배열 arr에서 3 찾기
+		System.out.println("3의 위치 : "+Arrays.binarySearch(arr, 3));
+		// 배열 arr에서 5의 삽입포인트 찾기
+		System.out.println("5의 -삽입 포인트-1 : "+Arrays.binarySearch(arr, 5));
+		
+		return;
+	}
+	
 	public static void main(String args[]){
-		System.out.println("BInary Search : "+BinarySearch());
+		System.out.println("Binary Search : "+BinarySearch());
+		System.out.println("Binary Search with API");
+		BinarySearch_API();
 		return;
 	}
 }
