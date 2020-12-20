@@ -13,3 +13,4 @@
 
 3. 검색
   - [검색 알고리즘](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap03/c03_1.java)
+  - [선형검색](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap03/c03_2.java)
