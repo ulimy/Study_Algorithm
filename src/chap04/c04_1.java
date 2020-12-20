@@ -4,7 +4,7 @@ public class c04_1 {
 	
 	/*
 	 스택
-	 선입선출(FIFO)
+	 후입선출(LIFO)
 	 
 	push() : 데이터를 집어 넣음
 	pop() : 데이터를 꺼냄
