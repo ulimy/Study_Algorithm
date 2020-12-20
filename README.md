@@ -17,5 +17,5 @@
   - [이진검색](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap03/c03_3.java)
 
 4. 스택과 큐
-  -[스택](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap04/c04_1.java)
-  -[큐](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap03/c04_2.java)
+  - [스택](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap04/c04_1.java)
+  - [큐](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap04/c04_2.java)
