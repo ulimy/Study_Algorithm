@@ -10,3 +10,6 @@
  
 2. 기본 자료구조
   - [배열](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap02/c02_1.java)
+
+3. 검색
+  - [검색 알고리즘](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap03/c03_1.java)
