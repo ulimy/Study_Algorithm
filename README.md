@@ -22,3 +22,13 @@
 
 5. 재귀 알고리즘
   - [재귀의 기본](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap05/c05_1.java)
+
+6. 정렬
+  - [버블정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_1.java)
+  - [단순선태정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_2.java)
+  - [단순삽입정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_3.java)
+  - [셸정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_4.java)
+  - [퀵정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_5.java)
+  - [병합정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_6.java)
+  - [힙정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_7.java)
+  - [도수정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_8.java)
