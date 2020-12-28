@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class c06_1 {
 	/*버블정렬
-	 맨 앞 혹은 맨 뒤 에섭터 이웃한 요소를 비교, 교환
+	 맨 앞 혹은 맨 뒤 에세부터 하나씩 이웃한 요소를 비교, 교환
 	  */
 	
 	static int[] arr = {5,7,2,4,0,1};
