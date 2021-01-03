@@ -25,7 +25,7 @@
 
 6. 정렬
   - [버블정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_1.java)
-  - [단순선태정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_2.java)
+  - [단순선택정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_2.java)
   - [단순삽입정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_3.java)
   - [셸정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_4.java)
   - [퀵정렬](https://github.com/ulimy/Study_Algotirhm/blob/master/src/chap06/c06_5.java)
